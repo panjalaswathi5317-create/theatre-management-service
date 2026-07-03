@@ -1,0 +1,21 @@
+### Create theatre
+POST http://localhost:8082/theatre-management-service/api/theatres
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+< ./create-theatre.json
+
+### Create screen
+POST http://localhost:8082/theatre-management-service/api/theatres/1/screens
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+< ./create-screen.json
+
+### Attach layout
+PATCH http://localhost:8082/theatre-management-service/api/screens/1/layout/10
+Authorization: Bearer {{token}}
+
+### Search theatres
+GET http://localhost:8082/theatre-management-service/api/theatres/search?city=Hyderabad&facility=IMAX&page=0&size=10&sortBy=name&direction=asc
+Authorization: Bearer {{token}}

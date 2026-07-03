@@ -1,0 +1,23 @@
+{
+  "name": "PVR Nexus Mall",
+  "description": "Flagship multiplex for premium shows",
+  "contactNumber": "+91-9876543210",
+  "contactEmail": "nexus@pvr.example.com",
+  "status": "ACTIVE",
+  "facilities": [
+    "PARKING",
+    "DOLBY",
+    "FOOD_COURT",
+    "AC"
+  ],
+  "address": {
+    "addressLine1": "5th Floor, Nexus Mall",
+    "addressLine2": "Kukatpally",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India",
+    "pincode": "500072",
+    "latitude": 17.4946,
+    "longitude": 78.3997
+  }
+}
